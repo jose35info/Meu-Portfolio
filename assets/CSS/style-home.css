@@ -1,0 +1,22 @@
+#principal-home {
+    background: url(../imgs/overlay.png),url(../imgs/edificio.avif) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* opacity: 60%;
+      filter: grayscale(50%);   */
+      
+}
+
+#contato{
+    background: url(../imgs/overlay.png),url(../imgs/edificio.avif) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 150vh;
+    /* opacity: 60%; */
+     /* filter: grayscale(100%);  */
+
+}

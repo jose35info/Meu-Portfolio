@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <!-- FONTES GOOGLE -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="./assets/CSS/sobre.css">
+    <link rel="stylesheet" href="./assets/CSS/themes.css">
+    <!-- Java Script -->
+    <script src="./assets/JS/gallery.js" defer></script>
+</head>
+
+<body>
+    <header class="container-fluid bg-dark text-light py-4">
+
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand mb-0 h1" href="#"> &lt Front End Developer  /&gt    </a>
+                        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon "></span>
+                      </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link  " aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#formacao">formação Acadêmica</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active " href="sobre.html">Sobre</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                
+
+
+            </div>
+    </header>
+
+    <section id="sobre" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <figure class="mb-4 mb-md-0">
+                        <img src="./assets/imgs/minha-fotojpg.jpg"  alt="Foto">
+                    </figure>
+
+                </div>
+                <div class="col-md-6">
+                    <h2 class="mb-4 animation">Sobre Mim</h2>
+                    <p>Olá! Sou <strong>José</strong>, um apaixonado desenvolvedor front-end. Atualmente, tenho me dedicado ao estudo contínuo no desenvolvimento web, focando em aprimorar minhas habilidades e dominar as tecnologias mais recentes. </p><p> Especializado em HTML, CSS, JavaScript, React e Git, estou comprometido em criar interfaces de usuário inovadoras e responsivas. Estou pronto para enfrentar novos desafios e contribuir para projetos inspiradores.</p> <p>Se você está em busca de um profissional qualificado para seu time ou projeto, estou disponível para colaboração. Vamos criar algo incrível juntos!</p>
+
+                    <div class="row">
+
+                        <div class="col-sm">
+                            <p class="fw-bold mb-0">Baixar Currículo</p>
+                            <a href="#" class="btn btn-dark ">Download</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="formacao" class="py-5 bg-light shadow rounded">
+        <div class="container">
+            
+            <div class="row ">
+                <div class="col-md-4 mb-4" >
+                    <article class="card shadow-lg p-3 mb-5 bg-body rounded justify-content-center align-items-center" >
+                       <span class="icon" > <i class="fas fa-graduation-cap fa-lg"></i></span>
+                        <div class="card-body">
+                            <h5 class="card-title ">Formação Acadêmica</h5>
+                            <p class="card-text "> Atualmente, estou cursando Tecnologia em Análise e Desenvolvimento de Sistemas na UNIASSELVI, com previsão de formatura em 2024. Esta jornada acadêmica está complementando minha base prática e me preparando para enfrentar desafios mais complexos.</p>
+                            
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <article class="card shadow-lg p-3 mb-5 bg-body rounded justify-content-center align-items-center" >
+                        <span class="icon" > <i class="fab fa-leanpub fa-lg"></i></span>
+                        <div class="card-body">
+                            <h5 class="card-title">Estudos contínuo</h5>
+                            <p class="card-text">FullStack PHP, Web Design, com conhecimentos em HTML5, CSS3, JavaScript, Tipografia, jQuery, Bootstrap,
+                                WordPress, Elementor, Woocommerce, Laravel, MySQL e PostgreSQL.</p>
+                            
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <article class="card shadow-lg p-3 mb-5 bg-body rounded justify-content-center align-items-center">
+                        <span class="icon" > <i class="fas fa-user-cog fa-lg"></i></span>
+                        <div class="card-body">
+                            <h5 class="card-title">Barber-Shop</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem sint recusandae ad perspiciatis aliquid neque. Vel architecto quaerat nostrum ab.</p>
+                            
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Modal para exibir a imagem em tamanho real -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImg">
+        </div>
+    </section>
+
+    <section id="contato" class="py-5">
+        <!-- <div class="container">
+            <h2 class="mb-4">Contato</h2>
+            <p>Você pode entrar em contato comigo através do email: meuemail@example.com</p>
+        </div> -->
+    </section>
+
+    <footer class="bg-dark text-light py-4">
+        <div class="up-arrow bg-light shadow" id="seta-topo">
+            <div class="position-arrow-down  p-2 bg-light shadow">
+                <a href="#sobre"><img src="./assets/imgs/up-arrow.svg" alt="seta para cima"></a>
+            </div>     
+        </div>
+        <div class="container text-center">
+            <p>&copy; 2024 Meu Portfólio</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    var setaTopo = document.getElementById('seta-topo');
+    var secaoContato = document.getElementById('contato');
+
+    // Adiciona um observador para verificar quando a seção de contato está visível na tela
+    var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+                // Quando a seção de contato está visível, mostra a seta
+                setaTopo.style.display = 'block';
+            } else {
+                // Quando a seção de contato não está visível, oculta a seta
+                setaTopo.style.display = 'none';
+            }
+        });
+    });
+
+    // Observa a seção de contato
+    observer.observe(secaoContato);
+
+    // Rola suavemente para o topo quando a seta é clicada
+    setaTopo.addEventListener('click', function() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+});
+        
+    </script>
+</body>
+
+</html>
