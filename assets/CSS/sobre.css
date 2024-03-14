@@ -10,48 +10,33 @@
 }
 
 
-/* Reset CSS */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    
-    font-size: 65.5%;
-    font-family: "Inter", sans-serif;
-}
 
 header {
     color: #fff;
     padding: 20px;
+    
+    
+    
+    
+    
 }
-
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #FFD700;
-    text-decoration: none;
-    font-size: 1rem;
-    font-family: "Inter", sans-serif;
-}
-
-section {
+#sobre{
     padding: 50px 0;
+    margin-top: 3px;
+
 }
+#formacao{
+    
+    margin-top: 100px;
+
+}
+p{
+    margin-top: 10px;
+}
+
+
+
 
 .animation {
     font-size: 4rem;
@@ -169,7 +154,7 @@ figure>img {
 
 .position-arrow-down {
     position: absolute;
-    top: 1px; /* Ajuste a distância do topo conforme necessário */
+    bottom: -40px; /* Ajuste a distância do topo conforme necessário */
     right: 20px; /* Ajuste a distância da direita conforme necessário */
     width: 100%;
     max-width: 50px;

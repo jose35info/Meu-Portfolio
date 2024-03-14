@@ -14,18 +14,19 @@
     <!-- CSS personalizado -->
     <link rel="stylesheet" href="./assets/CSS/sobre.css">
     <link rel="stylesheet" href="./assets/CSS/themes.css">
+    <link rel="stylesheet" href="./assets/CSS/reset.css">
     <!-- Java Script -->
     <script src="./assets/JS/gallery.js" defer></script>
 </head>
 
 <body>
-    <header class="container-fluid bg-dark text-light py-4">
+    <header class="container-fluid bg-dark text-light py-4 ">
 
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
                 <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
                     <div class="container-fluid">
-                        <a class="navbar-brand mb-0 h1" href="#"> &lt Front End Developer  /&gt    </a>
+                        <a class="navbar-brand mb-0 h1" href="index.html"> &lt Front End Developer  /&gt    </a>
                         <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon "></span>
                       </button>
@@ -35,10 +36,10 @@
                                     <a class="nav-link  " aria-current="page" href="index.html">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link " href="#formacao">formação Acadêmica</a>
+                                    <a class="nav-link active " href="sobre.html">Sobre</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active " href="sobre.html">Sobre</a>
+                                    <a class="nav-link " href="#formacao">Formação acadêmica & Cursos</a>
                                 </li>
 
                             </ul>
@@ -60,33 +61,41 @@
                     </figure>
 
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-8">
                     <h2 class="mb-4 animation">Sobre Mim</h2>
-                    <p>Olá! Sou <strong>José</strong>, um apaixonado desenvolvedor front-end. Atualmente, tenho me dedicado ao estudo contínuo no desenvolvimento web, focando em aprimorar minhas habilidades e dominar as tecnologias mais recentes. </p><p> Especializado em HTML, CSS, JavaScript, React e Git, estou comprometido em criar interfaces de usuário inovadoras e responsivas. Estou pronto para enfrentar novos desafios e contribuir para projetos inspiradores.</p> <p>Se você está em busca de um profissional qualificado para seu time ou projeto, estou disponível para colaboração. Vamos criar algo incrível juntos!</p>
-
-                    <div class="row">
-
-                        <div class="col-sm">
-                            <p class="fw-bold mb-0">Baixar Currículo</p>
-                            <a href="#" class="btn btn-dark ">Download</a>
-                        </div>
-
-                    </div>
+                    <p class="mb-4">Olá! Sou <strong>José</strong>, um apaixonado desenvolvedor front-end. Atualmente, tenho me dedicado ao estudo contínuo no desenvolvimento web, focando em aprimorar minhas habilidades e dominar as tecnologias mais recentes. </p>
+                    <p class="mb-4"> Especializado em HTML, CSS, JavaScript, React e Git, estou comprometido em criar interfaces de usuário inovadoras e responsivas. Estou pronto para enfrentar novos desafios e contribuir para projetos inspiradores.</p> 
+                    <p>Se você está em busca de um profissional qualificado para seu time ou projeto, estou disponível para colaboração. Vamos criar algo incrível juntos!</p>
                 </div>
             </div>
+            <div class="row mt-5 justify-content-center align-items-center">
+                <div class="col-2 ">
+                    <p class="fw-bold mb-0 mb-3">Baixar Currículo</p>
+                    <a href="#" class=" btn btn-outline-dark p-3 ">Download</a>
+                </div>
+         
+            </div>  
         </div>
-    </section>
 
-    <section id="formacao" class="py-5 bg-light shadow rounded">
-        <div class="container">
+    </section>
+                
+
+                    
+
+                
+
+    <section id="formacao" class="pt-5 bg-light shadow rounded ">
+        <div class="container mt-5 ">
             
             <div class="row ">
+                <h2 class="mb-4 h2 ">Formação acadêmica & Cursos</h2>
                 <div class="col-md-4 mb-4" >
                     <article class="card shadow-lg p-3 mb-5 bg-body rounded justify-content-center align-items-center" >
                        <span class="icon" > <i class="fas fa-graduation-cap fa-lg"></i></span>
                         <div class="card-body">
                             <h5 class="card-title ">Formação Acadêmica</h5>
-                            <p class="card-text "> Atualmente, estou cursando Tecnologia em Análise e Desenvolvimento de Sistemas na UNIASSELVI, com previsão de formatura em 2024. Esta jornada acadêmica está complementando minha base prática e me preparando para enfrentar desafios mais complexos.</p>
+                            <p class="card-text mb-2"> Atualmente, estou cursando Tecnologia em Análise e Desenvolvimento de Sistemas na UNIASSELVI, com previsão de formatura em 2024.</p>
+                            <p class="card-text">Esta jornada acadêmica está complementando minha base prática e me preparando para enfrentar desafios mais complexos.</p>
                             
                         </div>
                     </article>
@@ -106,9 +115,13 @@
                     <article class="card shadow-lg p-3 mb-5 bg-body rounded justify-content-center align-items-center">
                         <span class="icon" > <i class="fas fa-user-cog fa-lg"></i></span>
                         <div class="card-body">
-                            <h5 class="card-title">Barber-Shop</h5>
-                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem sint recusandae ad perspiciatis aliquid neque. Vel architecto quaerat nostrum ab.</p>
-                            
+                            <h5 class="card-title">Cursos</h5>
+                            <ul>
+                                <li><p class="card-text mb-2"> Curso SASS e SCSS do básico ao avançado-Udemy 2023</p></li>
+                                    <li><p class="card-text mb-2"> Webdesign Front-end Fundamentos: HTML, CSS, Lógica de programação e Javascript-Udemy 2023</p></li>
+                                    <li><p class="card-text mb-2">Curso Desenvolvedor Web Completo PHP-Udemy 2023 </p></li>
+                                    <li><p class="card-text"> Curso </p></li>
+                            </ul>
                         </article>
                     </div>
                 </div>

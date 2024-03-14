@@ -10,23 +10,9 @@
 }
 
 
-/* Reset CSS */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-html {
-    scroll-behavior: smooth;
-}
 
-body {
-    
-    font-size: 65.5%;
-    font-family: "Inter", sans-serif;
-}
     
 
 header {
@@ -76,15 +62,13 @@ section {
     color: #fff;
     text-align: center;
 }
-.redes-socias{
-    color: #fff; 
-}
+
 #projetos{
     position: relative;
 }
 .arrowDown{
     position: absolute;
-    bottom: -100px;
+    top:108%;
     left: 48%;
     width: 100%;
     max-width: 50px;
@@ -121,12 +105,12 @@ footer p {
     /* filter: contrast(0.7) brightness(1.0) saturate(1.4); */
     animation: normal chamada 4s;
     width: 100%;
-    max-width: 350px;
     margin: auto;
     border-radius: 100%;
     border-bottom: 6px solid #FFD700;
     border-left: 6px solid #FFD700;
     overflow: hidden;
+    
    
     
 }
@@ -136,9 +120,8 @@ footer p {
     transition: ease 1.5s;
     font-size: 2rem;
 }
-.redes-socias{
-    font-size: 2rem;
-}
+
+
 
 .icons-rede-sociais i:hover {
     color: #666666;
@@ -169,7 +152,7 @@ footer p {
 }
 
 .up-arrow {
-    border-radius: 5px;
+    
     position: relative;
     
     
@@ -177,7 +160,7 @@ footer p {
 
 .position-arrow-down {
     position: absolute;
-    top: 20px; /* Ajuste a distância do topo conforme necessário */
+    top: -40px; /* Ajuste a distância do topo conforme necessário */
     right: 20px; /* Ajuste a distância da direita conforme necessário */
     width: 100%;
     max-width: 50px;
