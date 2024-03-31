@@ -19,10 +19,10 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #ffd700;
+  
   text-decoration: none;
   font-size: 1rem;
-  font-family: "Inter", sans-serif;
+ 
 }
 
 /* Contato */
@@ -33,24 +33,22 @@ textarea {
   border-radius: none;
   background-color: none;
 }
-#contato
-textarea {
-  resize: none
-  
+#contato textarea {
+  resize: none;
 }
-._adress{
+._adress {
   width: 100%;
   max-width: 100px;
 }
 
-#form-container .form-control{
+#form-container .form-control {
   border: none;
   border-bottom: 1px solid #fff;
   border-radius: 0;
   background-color: transparent;
 }
-#form-container .form-control:focus{
-outline: none;
+#form-container .form-control:focus {
+  outline: none;
 }
 #form-container .form-control::placeholder {
   color: #fff;
@@ -191,7 +189,7 @@ footer p {
 .position-arrow-down {
   position: absolute;
   top: -40px; /* Ajuste a distância do topo conforme necessário */
-  right: 35px; /* Ajuste a distância da direita conforme necessário */
+  right: 40px; /* Ajuste a distância da direita conforme necessário */
   width: 100%;
   max-width: 50px;
   margin: auto;
@@ -202,38 +200,10 @@ footer p {
   animation-direction: alternate;
   transition: opacity 0.3s ease;
 }
-.position-arrow-down p{
+.position-arrow-down p {
   margin: 0;
   padding: 0;
   display: block;
-}
-
-/* CARDS  animações
-.card {
-  position: relative;
-  overflow: hidden;
-
-  min-width: 250px;
-  margin-right: 25px;
-}
-.card-container {
-  z-index: 1;
-}
-.card::before {
-  content: "";
-  position: absolute;
-  width: 170px;
-  height: 140%;
-  /* background: linear-gradient(#00ccff, #d500f9); 
-  background: -webkit-linear-gradient(left, #ffffff, #000000);
-  animation: rotate 5s linear infinite;
-} 
-.card::after {
-  content: "";
-  position: absolute;
-  background-color: #fff;
-  inset: 5px;
-  border-radius: 5px;
 }
 
 /* My photo animação */
@@ -241,8 +211,6 @@ footer p {
   animation: quica 2s linear infinite;
   animation-direction: alternate;
 }
-
-
 
 /*----------- ANIMAÇOES--------------  */
 @keyframes rotate {

@@ -2,18 +2,17 @@
 <html lang="pt-BR">
 
 <head>
-    <!-- Metas dados -->
+    <!-- Metadados -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
+    <title>Portfólio-Dev</title>
     <!-- Links Externos -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <!-- Link para os arquivos CSS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -26,308 +25,232 @@
     <script src="./assets/JS/gallery.js" defer></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./assets/JS/js.js"></script>
-
 </head>
 
 <body>
-    <!-- Cabeça~hado-->
-    <header class="container-fluid bg-dark text-light py-4 " id="intro">
+    <!-- Cabeçalho -->
+    <header class="container-fluid bg-dark text-light py-4" id="intro">
         <div class="container">
-            <div class="d-flex justify-content-between align-items-center">
-                <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
-                    <div class="container-fluid">
-                        <a class="navbar-brand mb-0 h1" href="#"> &lt Front End Developer /&gt </a>
-                        <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon "></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link active " aria-current="page" href="#principal-home">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link " href="#projetos">Projetos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link " href="#contato">Contato</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link " href="sobre.html">Sobre</a>
-                                </li>
-
-                            </ul>
-                        </div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand mb-0 h1" href="#">&lt Front End Developer /&gt</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#apresentacao">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projetos">Projetos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contato">Contato</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="sobre.html">Sobre</a>
+                            </li>
+                        </ul>
                     </div>
-                </nav>
-
-            </div>
+                </div>
+            </nav>
         </div>
     </header>
 
-    <!-- ------------------------------------------------- -->
-
-
-
-
-    <!-- Seções do Portifolio -->
-    <main>
-        <!-- Seção principal de aprensetanção -->
-        <section class="py-5" id="apresentacao">
-            <div class="container ">
-                <div class="row align-items-center  ">
-                    <div class="col-md-4">
-                        <figure class="mb-4 mb-md-0 ">
-                            <img src="./assets/imgs/img-1.jpg" class="img-fluid " id="myphoto" alt="Jose desenvolvedor">
-                        </figure>
-                    </div>
-                    <div class="col-md-8" data-aos="fade-left" data-aos-duration="2000">
-                        <h2 class="animation  fw-bold text-center ">Olá,meu nome é José</h2>
-                        <p class=" text-light text-center ">FULL-STACK DEVELOPER - UI/UX DESIGNER</p>
-                        <p class="text-center mt-5"><a href="#projetos" class="btn" id="btn-intro"> Saiba Mais <i
-                                    class="bi bi-arrow-down-circle"></i></a></p>
-
-
-                    </div>
+    <!-- Seção principal de apresentação -->
+    <section class="py-5" id="apresentacao">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <figure class="mb-4 mb-md-0">
+                        <img src="./assets/imgs/img-1.jpg" class="img-fluid" id="myphoto" alt="Jose desenvolvedor">
+                    </figure>
+                </div>
+                <div class="col-md-8" data-aos="fade-left" data-aos-duration="2000">
+                    <h2 class="fw-bold text-center text-light animation">Olá, meu nome é José</h2>
+                    <p class="text-center text-light">FULL-STACK DEVELOPER - UI/UX DESIGNER</p>
+                    <p class="text-center mt-5"><a href="#projetos" class="btn" id="btn-intro">Saiba Mais <i
+                                class="bi bi-arrow-down-circle"></i></a></p>
                 </div>
             </div>
-        </section>
-        <!-- -------------------------------------------------------- -->
-
-
-        <!-- Seta para baixo -->
-        <div class="position-arrow">
-            <div class="arrowDown   p-2" id="arrow-container">
-                <img src="./assets/imgs/arrowdown.png" alt="seta para baixo">
-            </div>
         </div>
+    </section>
 
+    <!-- Seta para baixo -->
+    <div class="position-arrow">
+        <div class="arrowDown p-2" id="arrow-container">
+            <img src="./assets/imgs/arrowdown.png" alt="seta para baixo">
+        </div>
+    </div>
 
+    <!-- Seções do Portfólio -->
 
+    <!-- Seção de Projetos -->
+    <section id="projetos">
+        <div class="container">
+            <h2 class="h1 text-center">Meus projetos</h2>
 
-
-        <!-- DESKTOP PROJETOS -->
-        <section id="projetos">
-            <div class="container ">
-                <h2 class="h1 text-center  "> Meus projetos</h2>
-
-                <!-- ONE SECÇÂO -->
-                <article id="content">
-                    <div class="row mb-5">
-                        <div class="col-sm-6 d-flex flex-column  justify-content-between align-items-start"
-                            data-aos="fade-right" data-aos-duration="2000">
-                            <h2 class="h2">Site de Barbearia </h2>
-                            <p class="mt-4 mb-4">Apresento minha mais recente criação: a página de entrada para a
-                                Barbeshop, uma barbearia que valoriza tradição e estilo. Este projeto responsivo combina
-                                elegância e funcionalidade para uma experiência cativante. Descubra como cada detalhe
-                                foi cuidadosamente elaborado para atrair e encantar seu público-alvo. </p>
-                            <p class="fw-bold mb-0 mt-1 ">Tecnologia usada </p>
-                            <ul class="d-flex mt-2 mb-4">
-                                <li> <i class="fa-brands fa-html5 fa-2xl text-dark pe-2"></i></li>
-                                <li><i class="fa-brands fa-css3-alt fa-2xl text-dark "></i></li>
-                                <li><i class="fa-brands fa-sass fa-2xl text-dark ps-2 "></i></li>
-                                <li><i class="fa-brands fa-git fa-2xl text-dark ps-2 "></i></li>
-
-                            </ul>
-                            <a href="https://jose35info.github.io/leadingpage/" target="_blank" rel="noopener noreferrer" class="btn">Acessar <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
-                        <div class="col-sm-6" data-aos="fade-left" data-aos-duration="2000">
-                            <img class="img-fluid" src="./assets/imgs/sitebarber.png" alt="">
-
-                        </div>
-
-
+            <!-- Primeiro Projeto -->
+            <article id="content">
+                <div class="row mb-5">
+                    <div class="col-sm-6 d-flex flex-column justify-content-between align-items-start"
+                        data-aos="fade-right" data-aos-duration="2000">
+                        <h2 class="h2">Site de Barbearia</h2>
+                        <p class="mt-4 mb-4">Apresento minha mais recente criação: a página de entrada para a Barbeshop,
+                            uma barbearia que valoriza tradição e estilo. Este projeto responsivo combina elegância e
+                            funcionalidade para uma experiência cativante. Descubra como cada detalhe foi cuidadosamente
+                            elaborado para atrair e encantar seu público-alvo.</p>
+                        <p class="fw-bold mb-0 mt-1">Tecnologias usadas</p>
+                        <ul class="d-flex mt-2 mb-4">
+                            <li><i class="fab fa-html5 fa-2x text-dark pe-2"></i></li>
+                            <li><i class="fab fa-css3-alt fa-2x text-dark"></i></li>
+                            <li><i class="fab fa-sass fa-2x text-dark ps-2"></i></li>
+                            <li><i class="fab fa-git fa-2x text-dark ps-2"></i></li>
+                        </ul>
+                        <a href="https://jose35info.github.io/leadingpage/" target="_blank"
+                            rel="noopener noreferrer" class="btn">Acessar <i class="bi bi-arrow-right"></i></a>
                     </div>
-                </article>
-
-                <!-- ---------------------------------------------------------------- -->
-
-                <!-------------------------- TWO SECÇÃO----------------------------------------------------- -->
-
-                <article id="content">
-                    <div class="row ">
-
-                        <div class="col-sm-6">
-                            <img src="./assets/imgs/site-aprenser.png" alt="" data-aos="fade-up-right"
-                                data-aos-duration="2000">
-
-                        </div>
-                        <div class="col-sm-6 d-flex flex-column  justify-content-between align-items-start"
-                            data-aos="fade-up-left" data-aos-duration="2000">
-                            <h2 class="h2">Web-site Aprenser</h2>
-                            <p class="mt-4">Apresento com orgulho o website que desenvolvi para uma escola de cursos de
-                                tecnologia. Este projeto foi meticulosamente criado para oferecer uma experiência
-                                envolvente e informativa aos visitantes. Explore como cada elemento foi pensado para
-                                transmitir a essência da escola e inspirar futuros alunos a embarcar em sua jornada
-                                tecnológica. Visite agora e descubra como esta plataforma é um reflexo do compromisso da
-                                escola com a excelência educacional e a inovação.</p>
-                            <p class="fw-bold mb-0 mt-1 ">Tecnologia usada </p>
-                            <ul class="d-flex mt-2 mb-4">
-                                <li> <i class="fa-brands fa-html5 fa-2xl text-dark pe-2"></i></li>
-                                <li><i class="fa-brands fa-css3-alt fa-2xl text-dark "></i></li>
-                                <li><i class="fa-brands fa-sass fa-2xl text-dark ps-2 "></i></li>
-                                <li><i class="fa-brands fa-git fa-2xl text-dark ps-2 "></i></li>
-
-                            </ul>
-                            <a href="https://jose35info.github.io/projeto-aprenser/" target="_blank" rel="noopener noreferrer" class="btn">Acessar
-                                <i class="bi bi-arrow-right"></i></a>
-                        </div>
-
-
+                    <div class="col-sm-6" data-aos="fade-left" data-aos-duration="2000">
+                        <img class="img-fluid" src="./assets/imgs/sitebarber.png" alt="">
                     </div>
-                </article>
-                <article id="content">
-                    <div class="row mb-3">
-                        <div class="col-sm-6 d-flex flex-column  justify-content-between align-items-start"
-                            data-aos="fade-right" data-aos-duration="2000">
-                            <h2 class="h2">Site Fashion</h2>
-                            <p class="mt-4">Apresento com entusiasmo o site que desenvolvi para uma agência de moda de
-                                vanguarda. Este projeto foi cuidadosamente concebido para refletir a essência da moda
-                                contemporânea, combinando estilo e funcionalidade de forma harmoniosa. Explore agora
-                                como cada detalhe foi pensado para capturar a imaginação e inspirar os amantes da moda.
-                                Visite nosso site e mergulhe na experiência de uma agência que está na vanguarda das
-                                tendências e da criatividade</p>
-                            <p class="fw-bold mb-0 mt-1 ">Tecnologia usada </p>
-                            <ul class="d-flex mt-2 mb-4">
-                                <li> <i class="fa-brands fa-html5 fa-2xl text-dark pe-2"></i></li>
-                                <li><i class="fa-brands fa-css3-alt fa-2xl text-dark "></i></li>
-                                <li><i class="fa-brands fa-sass fa-2xl text-dark ps-2 "></i></li>
-                                <li><i class="fa-brands fa-git fa-2xl text-dark ps-2 "></i></li>
-
-                            </ul>
-                            <a href="https://jose35info.github.io/projeto-fashion-moda/" target="_blank" rel="noopener noreferrer"
-                                class="btn">Acessar <i class="bi bi-arrow-right"></i></a>
-                        </div>
-                        <div class="col-sm-6">
-                            <img src="./assets/imgs/site _moda1.png" alt="" data-aos="fade-left"
-                                data-aos-duration="2000">
-
-                        </div>
-
-
+                </div>
+            </article>
+            <!-- Segundo Projeto -->
+            <article id="content">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="./assets/imgs/site-aprenser.png" class="img-fluid" alt=""
+                            data-aos="fade-up-right" data-aos-duration="2000">
                     </div>
-                </article>
-                <article class="container p-5 bg-light mb-5">
-                    <div class="  d-flex flex-column   justify-content-center align-items-center">
-                        <h1 class="h3 mb-3 ">Outros projetos <i class="bi bi-tools"></i></h1>
-                        <p>Clique no Link abaixo para acessar mais projetos.</p>
-                        <a href="#"> Acessar <i class="bi bi-arrow-right"></i> </a>
-
+                    <div class="col-sm-6 d-flex flex-column justify-content-between align-items-start"
+                        data-aos="fade-up-left" data-aos-duration="2000">
+                        <h2 class="h2">Web-site Aprenser</h2>
+                        <p class="mt-4">Apresento com orgulho o website que desenvolvi para uma escola de cursos de
+                            tecnologia. Este projeto foi meticulosamente criado para oferecer uma experiência envolvente
+                            e informativa aos visitantes. Explore como cada elemento foi pensado para transmitir a
+                            essência da escola e inspirar futuros alunos a embarcar em sua jornada tecnológica.</p>
+                        <p class="fw-bold mb-0 mt-1">Tecnologias usadas</p>
+                        <ul class="d-flex mt-2 mb-4">
+                            <li><i class="fab fa-html5 fa-2x text-dark pe-2"></i></li>
+                            <li><i class="fab fa-css3-alt fa-2x text-dark"></i></li>
+                            <li><i class="fab fa-sass fa-2x text-dark ps-2"></i></li>
+                            <li><i class="fab fa-git fa-2x text-dark ps-2"></i></li>
+                        </ul>
+                        <a href="https://jose35info.github.io/projeto-aprenser/" target="_blank"
+                            rel="noopener noreferrer" class="btn">Acessar <i class="bi bi-arrow-right"></i></a>
                     </div>
-                </article>
+                </div>
+            </article>
+            <!-- Terceiro Projeto -->
+            <article id="content">
+                <div class="row mb-3">
+                    <div class="col-sm-6 d-flex flex-column justify-content-between align-items-start"
+                        data-aos="fade-right" data-aos-duration="2000">
+                        <h2 class="h2">Site Fashion</h2>
+                        <p class="mt-4">Apresento com entusiasmo o site que desenvolvi para uma agência de moda de
+                            vanguarda. Este projeto foi cuidadosamente concebido para refletir a essência da moda
+                            contemporânea, combinando estilo e funcionalidade de forma harmoniosa. Explore agora como
+                            cada detalhe foi pensado para capturar a imaginação e inspirar os amantes da moda.</p>
+                        <p class="fw-bold mb-0 mt-1">Tecnologias usadas</p>
+                        <ul class="d-flex mt-2 mb-4">
+                            <li><i class="fab fa-html5 fa-2x text-dark pe-2"></i></li>
+                            <li><i class="fab fa-css3-alt fa-2x text-dark"></i></li>
+                            <li><i class="fab fa-sass fa-2x text-dark ps-2"></i></li>
+                            <li><i class="fab fa-git fa-2x text-dark ps-2"></i></li>
+                        </ul>
+                        <a href="https://jose35info.github.io/projeto-fashion-moda/" target="_blank"
+                            rel="noopener noreferrer" class="btn">Acessar <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="./assets/imgs/site _moda1.png" class="img-fluid" alt="Site Fashion"
+                            data-aos="fade-left" data-aos-duration="2000">
+                    </div>
+                </div>
+            </article>
+            <!-- Outros Projetos -->
+            <article class="container p-5 bg-light mb-5">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <h1 class="h3 mb-3">Outros projetos <i class="bi bi-tools"></i></h1>
+                    <p>Clique no Link abaixo para acessar mais projetos.</p>
+                    <a href="#">Acessar <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </article>
+        </div>
+    </section>
 
-        </section>
-
-
-        <!-- Seção de contato -->
-        <section id="contato" class="py-5 ">
-            <div class="container">
-                <a href="#principal-home"><span class="text-light h1 text-center mb-5">&lt Front End Developer /&gt
-                    </span> </a>
-                <div class="row mt-4">
-
-                    <div class="col-sm-8  " data-aos="flip-left" data-aos-duration="2000">
-
-                        <h2 class="h2 text-light text-center mt-5 mb-4" >Contate-me</h2>
-                        <form id="form-container" class="col-md-4needs-validation" novalidate>
-                            <label for="name" class="form-label h5 text-light "></label>
-
-                            <input type="text" id="name" class="form-control form-control-lg mb-3 mt-3 "placeholder="Digite seu nome" required>
-                            <div class="valid-feedback">
-                                OK
-                            </div>
-                            <label for="e-mail" class="form-label text-light h5 mt-5"> </label>
-                            <input type="email" id="e-mail" class="form-control form-control-lg mb-3 "  placeholder="Digite seu E-mail" required>
-                            <div class="valid-feedback">
-                                OK
-                            </div>
-                            <label for="msg" class="form-label text-light h5 "></label>
-                            <textarea name="" id="msg" class="form-control mb-3 mt-4  " 
+    <!-- Seção de Contato -->
+    <section id="contato" class="py-5">
+        <div class="container">
+            <a href="#apresentacao"><span class="text-light h1 text-center mb-5">&lt Front End Developer /&gt</span></a>
+            <div class="row mt-4">
+                <div class="col-sm-8" data-aos="flip-left" data-aos-duration="2000">
+                    <h2 class="h2 text-light text-center mt-5 mb-4">Contate-me</h2>
+                    <form id="form-container" class="needs-validation" novalidate>
+                        <div class="form-group">
+                            <label for="name" class="form-label h5 text-light"></label>
+                            <input type="text" id="name" class="form-control form-control-lg mb-3 mt-3"
+                                placeholder="Digite seu nome" required>
+                            <div class="valid-feedback">OK</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label text-light h5 mt-5"></label>
+                            <input type="email" id="email" class="form-control form-control-lg mb-3"
+                                placeholder="Digite seu e-mail" required>
+                            <div class="valid-feedback">OK</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="msg" class="form-label text-light h5"></label>
+                            <textarea name="msg" id="msg" class="form-control mb-3 mt-4"
                                 placeholder="Digite sua mensagem aqui..." required></textarea>
-                            <div class="valid-feedback">
-                                OK
-                            </div>
-
-                            <button class="btn btn-outline-light p-3 col-sm-2" value="submit">Enviar </button>
-
-                        </form>
-
-
-
-                    </div>
-                    <div class="col-sm-4 ps-5 ">
-
-
-
-                        <address class="d-flex flex-column justify-content-center align-items-center">
-                            <img src="./assets/imgs/adress.svg" class="img-fluid _img-contato mb-4" alt=" Contato">
-                            <a href="https://maps.app.goo.gl/r7CFms1H1DtuD3Sm7" target="_blank" rel="noopener noreferrer">
-                                <p class="text-light d-flex justify-content-center align-items-center"><i
-                                        class="bi bi-geo-alt"></i> Rua Aristoteles Carneiro, n 39</p>
-                            </a>
-                            <a href="https://wa.me/5585988950914?text=Ol%C3%A1%21+Cheguei+at%C3%A9+voc%C3%AA+atrav%C3%A9s+do+seu+portf%C3%B3lio.+Estou+muito+interessado+em+conhecer+mais+sobre+seu+trabalho+e+explorar+poss%C3%ADveis+oportunidades+de+colabora%C3%A7%C3%A3o.+Aguardo+ansiosamente+para+trocarmos+ideias+e+discutirmos+futuros+projetos+juntos."
-                                target="_blank" rel="noopener noreferrer">
-                                <p class="text-light d-flex justify-content-center align-items-center"><i
-                                        class="bi bi-telephone"></i>(85) 9 88950914</p>
-                            </a>
-
-                        </address>
-
-
-
-                    </div>
-
-
+                            <div class="valid-feedback">OK</div>
+                        </div>
+                        <button class="btn btn-outline-light p-3 col-sm-2" type="submit">Enviar</button>
+                    </form>
                 </div>
-
-
-        </section>
-
-
-
-
-    </main>
-
-    <!-- Fim do Main -->
-
-
-
-
-
-    <footer class="bg-dark text-light py-4" id="rodape">
-        <div class="col-md-12 mb-3 ">
-            <!-- <p class="fw-bold mb-0 text-center redes-socias text-light">Redes Sociais</p> -->
-            <div class="d-flex justify-content-center align-items-center ">
-                <a href="#" class="icons-rede-sociais"><i class="fab fa-instagram fa-2x me-3"></i></a>
-                <a href="https://www.linkedin.com/in/joseantonioluz/" class="icons-rede-sociais"><i
-                        class="fab fa-linkedin-in fa-2x me-3"></i></a>
-                <a href="https://github.com/jose35info" class="icons-rede-sociais"><i
-                        class="fab fa-github fa-2x"></i></a>
-            </div>
-
-        </div>
-
-        <!-- Seta para cima -->
-        <div class="up-arrow bg-light shadow" id="seta-topo">
-            <div class="position-arrow-down p-2 bg-light shadow">
-                <a href="#sobre"><img src="./assets/imgs/up-arrow.svg" alt=" seta para cima"></a>
-               
-                
+                <div class="col-sm-4 ps-5">
+                    <address class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="./assets/imgs/adress.svg" class="img-fluid _img-contato mb-4" alt="Contato">
+                        <a href="https://maps.app.goo.gl/r7CFms1H1DtuD3Sm7" target="_blank"
+                            rel="noopener noreferrer">
+                            <p class="text-light d-flex justify-content-center align-items-center"><i
+                                    class="bi bi-geo-alt"></i> Rua Aristoteles Carneiro, n 39</p>
+                        </a>
+                        <a href="https://wa.me/5585988950914?text=Ol%C3%A1%21+Cheguei+at%C3%A9+voc%C3%AA+atrav%C3%A9s+do+seu+portf%C3%B3lio.+Estou+muito+interessado+em+conhecer+mais+sobre+seu+trabalho+e+explorar+poss%C3%ADveis+oportunidades+de+colabora%C3%A7%C3%A3o.+Aguardo+ansiosamente+para+trocarmos+ideias+e+discutirmos+futuros+projetos+juntos."
+                            target="_blank" rel="noopener noreferrer">
+                            <p class="text-light d-flex justify-content-center align-items-center"><i
+                                    class="bi bi-telephone"></i>(85) 9 88950914</p>
+                        </a>
+                    </address>
+                </div>
             </div>
         </div>
-        <div class="container text-center">
-            <p>&copy; 2024 Meu Portfólio</p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="container-fluid bg-dark text-light py-4" id="rodape">
+        <div class="container">
+            <div class="col-md-12 mb-3">
+                <div class="d-flex justify-content-center align-items-center">
+                    <a href="#" class="icons-rede-sociais"><i class="fab fa-instagram fa-2x me-3"></i></a>
+                    <a href="https://www.linkedin.com/in/joseantonioluz/" class="icons-rede-sociais"><i
+                            class="fab fa-linkedin-in fa-2x me-3"></i></a>
+                    <a href="https://github.com/jose35info" class="icons-rede-sociais"><i
+                            class="fab fa-github fa-2x"></i></a>
+                </div>
+            </div>
+            <div class="up-arrow bg-light shadow" id="seta-topo">
+                <div class="position-arrow-down p-2 bg-light shadow">
+                    <a href="#apresentacao"><img src="./assets/imgs/up-arrow.svg" alt="seta para cima"></a>
+                </div>
+            </div>
+            <div class="container text-center">
+                <p>&copy; 2024 Meu Portfólio</p>
+            </div>
         </div>
-
-
     </footer>
-
-
-    <!-- seta para cima -->
-
-
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -361,16 +284,9 @@
             });
         });
 
-        ///////////////////////////////////////////////////////////////////////////////
-
+        // Inicialização do AOS
         AOS.init();
-
-
-
     </script>
-
-
-
 </body>
 
 </html>

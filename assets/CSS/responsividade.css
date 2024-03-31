@@ -45,4 +45,19 @@
     #contato .h1{
         font-size: 1.6rem;
     }
+
+    .position-arrow-down {
+        position: absolute;
+        top: -40px; /* Ajuste a distância do topo conforme necessário */
+        right: 0px; /* Ajuste a distância da direita conforme necessário */
+        width: 100%;
+        max-width: 50px;
+        margin: auto;
+        cursor: pointer;
+      
+        border-radius: 5px;
+        animation: quica 2s linear infinite;
+        animation-direction: alternate;
+        transition: opacity 0.3s ease;
+      }
 }
