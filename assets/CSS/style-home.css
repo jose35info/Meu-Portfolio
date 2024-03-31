@@ -1,9 +1,10 @@
-#principal-home {
+#apresentacao {
     background: url(../imgs/overlay.png),url(../imgs/edificio.avif) center center no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+ 
     /* opacity: 60%;
       filter: grayscale(50%);   */
       

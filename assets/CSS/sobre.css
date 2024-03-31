@@ -1,188 +1,173 @@
 /* FONTES GOOGLE */
 
-@keyframes chamada {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 100%;
-    }
-}
-
-
-
-
 header {
-    color: #fff;
-    padding: 20px;
-    
-    
-    
-    
-    
+  color: #fff;
+  padding: 20px;
 }
-#sobre{
-    padding: 50px 0;
-    margin-top: 3px;
-
+#sobre {
+  padding: 50px 0;
+  margin-top: 3px;
 }
-#formacao{
-    
-    margin-top: 100px;
-
+#formacao {
+  margin-top: 100px;
 }
-p{
-    margin-top: 10px;
+p {
+  margin-top: 10px;
 }
-
-
-
 
 .animation {
-    font-size: 4rem;
-    margin-bottom: 20px;
-    font-family: "Inter", sans-serif;
-    color: #333;
-    text-align: center;
+  font-size: 4rem;
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+  color: #333;
+  text-align: center;
 }
 
 p {
-    font-size: 1rem;
-    color: #333;
+  font-size: 1rem;
+  color: #333;
+}
+.text.desc {
+  line-height: 1.3rem;
+}
+.__img_conhecimento {
+  width: 100px;
 }
 
-
 footer {
-    
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 footer p {
-    color: #fff;
+  color: #fff;
 }
 
-figure>img {
-    /* filter: contrast(0.7) brightness(1.0) saturate(1.4); */
-    animation: normal chamada 4s;
-    min-width: 100%;
-    max-width: 300px;
-    min-height: 100%;
-    max-height: 300px;
-    margin: auto;
-    border-radius: 50%;
-    border-bottom: 6px solid #FFD700;
-    border-left: 6px solid #FFD700;
-    overflow: hidden;
-    
+figure > img {
+  /* filter: contrast(0.7) brightness(1.0) saturate(1.4); */
+  animation: normal chamada 4s;
+  min-width: 100%;
+  max-width: 300px;
+  min-height: 100%;
+  max-height: 300px;
+  margin: auto;
+  border-radius: 50%;
+  border-bottom: 6px solid #00768c;
+  border-left: 6px solid #00768c;
+  overflow: hidden;
 }
 
 .icons-rede-sociais i,
 .icons-hardsskill i {
-    color: #fff;
-    transition: ease 1.5s;
+  color: #fff;
+  transition: ease 1.5s;
 }
 
 .icons-rede-sociais i:hover {
-    color: #ccc;
+  color: #ccc;
 }
-
 
 /* IMGEM DO LOGO */
 
 .logo {
-    width: 50px;
+  width: 50px;
 }
-
 
 /* Animação h1 */
 
 .animation {
-    font-family: monospace;
-    border-right: 4px solid;
-    width: 10ch;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typing 2s steps(12), blinking 0.5s infinite step-end alternate;
-    
+  font-family: monospace;
+  border-right: 4px solid;
+  width: 10ch;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(12), blinking 0.5s infinite step-end alternate;
 }
-
 
 /* secção  formação academica */
 
-    
-    
-    
-
-.icon{
-    font-size: 2rem;
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    background-color: #FFD700;
-    position: relative;
-   
+.icon {
+  font-size: 2rem;
+  width: 100%;
+  max-width: 100px;
+  height: 100%;
+  max-height: 100px;
+  border-radius: 100%;
+  background-color: #00768c;
+  position: relative;
 }
-.card{
-    border-bottom: 2px solid #00008B;
-    
+.card {
+  border-bottom: 2px solid #00768c;
+  height: 400px; /* od*/
 }
-.fa-graduation-cap{
-    position: absolute;
-    top: 50px;
-    left: 25px;
+.card-title {
+  font-weight: 800;
 }
-.fa-leanpub{
-    position: absolute;
-    top: 50px;
-    left: 25px;
+.fa-graduation-cap {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+}
+.fa-leanpub {
+  position: absolute;
+  top: 50%;
+  left: 30%;
 }
 .fa-user-cog {
-    position: absolute;
-    top: 50px;
-    left: 25px; 
+  position: absolute;
+  top: 50%;
+  left: 30%;
 }
+
 .up-arrow {
-    position: relative;
-    
+  position: relative;
 }
-    
-    
 
 .position-arrow-down {
-    position: absolute;
-    bottom: -40px; /* Ajuste a distância do topo conforme necessário */
-    right: 20px; /* Ajuste a distância da direita conforme necessário */
-    width: 100%;
-    max-width: 50px;
-    margin: auto;
-    cursor: pointer;
-    border-radius: 5px;
-    
-    
-    
+  position: absolute;
+  bottom: -40px; /* Ajuste a distância do topo conforme necessário */
+  right: 20px; /* Ajuste a distância da direita conforme necessário */
+  width: 100%;
+  max-width: 50px;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 5px;
 }
-
-@keyframes typing {
-    from {
-        width: 0;
-    }
-}
-
-@keyframes blinking {
-    50% {
-        border-color: transparent;
-    }
+@media screen and (max-width: 400px) {
+  .h2 {
+    font-size: 2rem;
+  }
 }
 
 @keyframes chamada {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 100%;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blinking {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes chamada {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
 }
