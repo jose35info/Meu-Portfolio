@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <!-- Link para os arquivos CSS -->
+
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -31,7 +32,7 @@
     <!-- Cabeçalho -->
     <header class="container-fluid bg-dark text-light py-4" id="intro">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav class="navbar navbar-expand-lg  justify-content-end   navbar-dark bg-dark">
                 <div class="container-fluid">
                     <a class="navbar-brand mb-0 h1" href="#">&lt Front End Developer /&gt</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -231,25 +232,35 @@
     <!-- Rodapé -->
     <footer class="container-fluid bg-dark text-light py-4" id="rodape">
         <div class="container">
-            <div class="col-md-12 mb-3">
-                <div class="d-flex justify-content-center align-items-center">
-                    <a href="#" class="icons-rede-sociais"><i class="fab fa-instagram fa-2x me-3"></i></a>
-                    <a href="https://www.linkedin.com/in/joseantonioluz/" class="icons-rede-sociais"><i
-                            class="fab fa-linkedin-in fa-2x me-3"></i></a>
-                    <a href="https://github.com/jose35info" class="icons-rede-sociais"><i
-                            class="fab fa-github fa-2x"></i></a>
+            <div class="row justify-content-center text-center">
+
+                <!-- Ícones -->
+                <div class="col-12 mb-3">
+                    <div class="d-flex justify-content-center align-items-center gap-3">
+                        <a href="#" class="icons-rede-sociais"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="https://www.linkedin.com/in/joseantonioluz/" class="icons-rede-sociais"><i
+                                class="fab fa-linkedin fa-2x"></i></a>
+                        <a href="https://github.com/jose35info" class="icons-rede-sociais"><i
+                                class="fab fa-github fa-2x"></i></a>
+                    </div>
                 </div>
-            </div>
-            <div class="up-arrow bg-light shadow" id="seta-topo">
-                <div class="position-arrow-down p-2 bg-light shadow">
-                    <a href="#apresentacao"><img src="./assets/imgs/up-arrow.svg" alt="seta para cima"></a>
+
+                <!-- Seta topo -->
+                <div class="col-12 mb-3">
+                    <a href="#apresentacao" class="d-inline-block bg-light p-2 rounded-circle shadow">
+                        <img src="./assets/imgs/up-arrow.svg" alt="seta para cima" style="width: 28px;">
+                    </a>
                 </div>
-            </div>
-            <div class="container text-center">
-                <p>&copy; 2024 Meu Portfólio</p>
+
+                <!-- Texto -->
+                <div class="col-12">
+                    <p class="mb-0">&copy; 2024 Meu Portfólio</p>
+                </div>
+
             </div>
         </div>
     </footer>
+
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -292,7 +303,7 @@
                 script = d.createElement('script');
                 script.type = 'text/javascript';
                 script.async = true;
-                script.src = 'https://w.app/widget-v1/2Wnwtp.js';
+                script.src = '../assets/JS/whatsapp.js';
                 d.getElementsByTagName('head')[0].appendChild(script);
             }(document));
         };
